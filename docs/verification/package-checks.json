@@ -1,0 +1,15 @@
+{
+  "testedVersion": "1.0.0",
+  "platform": "Windows",
+  "zoteroVersion": "10.0.8",
+  "isolatedProfile": true,
+  "headless": true,
+  "checks": [
+    "Production XPI registers exactly one menu",
+    "Existing test item loaded",
+    "Production XPI locale renders correctly",
+    "Production XPI enables sending a PDF parent",
+    "Production XPI has a command handler"
+  ],
+  "success": true
+}

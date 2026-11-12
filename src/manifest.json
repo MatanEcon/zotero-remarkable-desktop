@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Send to reMarkable",
+  "version": "1.0.1",
+  "description": "Send a PDF from Zotero to My files using the installed reMarkable Windows desktop app.",
+  "author": "Matan Goldman",
+  "homepage_url": "https://github.com/MatanEcon/zotero-remarkable-desktop",
+  "icons": { "48": "icon.svg", "96": "icon.svg" },
+  "applications": {
+    "zotero": {
+      "id": "remarkable-desktop@matan.local",
+      "update_url": "https://github.com/MatanEcon/zotero-remarkable-desktop/releases/latest/download/updates.json",
+      "strict_min_version": "9.0",
+      "strict_max_version": "10.0.*"
+    }
+  }
+}

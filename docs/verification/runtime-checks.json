@@ -1,0 +1,24 @@
+{
+  "testedVersion": "1.0.0",
+  "platform": "Windows",
+  "zoteroVersion": "10.0.8",
+  "remarkableDesktopVersion": "3.29.0",
+  "isolatedProfile": true,
+  "headless": true,
+  "processLaunchIntercepted": true,
+  "checks": [
+    "Official context menu registered",
+    "Parent PDF detected by real Zotero APIs",
+    "Direct PDF detected by real Zotero APIs",
+    "Parent resolves its preferred PDF",
+    "Real attachment path exists",
+    "Installed executable detected using real XPCOM file checks",
+    "Full send pipeline completes with intercepted launch",
+    "Launch receives the exact real PDF path",
+    "Context menu renders its label",
+    "Context menu is enabled for a PDF parent",
+    "Clicking the registered menu sends the selected PDF",
+    "Fluent label loads in the library window"
+  ],
+  "success": true
+}

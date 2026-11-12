@@ -1,0 +1,19 @@
+{
+  "name": "zotero-remarkable-desktop",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Send a Zotero PDF to the reMarkable Windows desktop app",
+  "license": "MIT",
+  "author": "Matan Goldman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatanEcon/zotero-remarkable-desktop.git"
+  },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test tests/remarkable.test.cjs",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build.ps1",
+    "verify:package": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/verify-package.ps1",
+    "audit:public": "node scripts/audit-public.cjs"
+  }
+}
